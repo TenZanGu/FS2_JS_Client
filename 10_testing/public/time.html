@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hello</title>
+  
+</head>
+<body id="Hello">
+    <ul class="nav navbar-nav">
+        <li class="active">
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="info.html">Info</a>
+        </li>
+        <li>
+          <a href="time.html">Time</a>
+        </li>
+      </ul>
+    </div>
+    </nav>
+    <p>Click the button to display the date.</p>
+
+<button onclick="displayDate()">The time is?</button>
+<p id="time"></p>
+</body>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.2.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCOXkrTSBw6j7ZMpTLkhZ05fEUhuKbKQUQ",
+    authDomain: "client-side-aedb1.firebaseapp.com",
+    databaseURL: "https://client-side-aedb1.firebaseio.com",
+    projectId: "client-side-aedb1",
+    storageBucket: "client-side-aedb1.appspot.com",
+    messagingSenderId: "438172851306",
+    appId: "1:438172851306:web:7c59d4a4fdb4e898f87e13"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+<script src="js/myScript1.js"></script>
+</html>
